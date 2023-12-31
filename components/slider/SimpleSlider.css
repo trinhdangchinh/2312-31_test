@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components {
+  .swiper-button-prev {
+    /* @apply w-[100px] h-[100px] bg-prim; */
+  }
+  .swiper-button-next {
+    /* @apply w-[100px] h-[100px] bg-prim; */
+  }
+}

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* width */
+
+  .scrollBar::-webkit-scrollbar {
+    @apply w-[5px] h-[5px];
+  }
+
+  /* Track */
+  .scrollBar::-webkit-scrollbar-track {
+    @apply bg-gray2 rounded-md;
+  }
+  /* .scrollBar::-webkit-scrollbar-button {
+    @apply bg-prim2;
+    content: ">>";
+  } */
+
+  /* Handle */
+  .scrollBar::-webkit-scrollbar-thumb {
+    @apply bg-prim rounded-md;
+  }
+
+  /* Handle on hover */
+  .scrollBar::-webkit-scrollbar-thumb:hover {
+    @apply bg-prim;
+  }
+}

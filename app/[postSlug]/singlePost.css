@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "./base.css";
+@import "tailwindcss/utilities"; */
+
+@layer components {
+  .post-content h2 {
+    @apply text-l mt-[2vh] font-[500];
+  }
+  .post-content .wp-block-image {
+    @apply my-[3vh];
+  }
+  .post-content table {
+    @apply !w-full;
+  }
+  .post-content table tbody tr td {
+    @apply border-[1px] border-key px-[5px];
+  }
+  .post-content .wp-block-image figcaption {
+    @apply pt-[1vh] text-center italic;
+  }
+  .post-content .wp-block-table table > tbody > tr > td {
+    @apply border-solid border-black border;
+  }
+  .post-content .wp-caption {
+    @apply !w-full py-[30px] text-center italic mx-auto;
+  }
+  .post-content .wp-caption p {
+    @apply py-[10px];
+  }
+  .post-content .wp-caption img {
+    @apply mx-auto;
+  }
+}

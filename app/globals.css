@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "./base.css";
+@import "tailwindcss/utilities"; */
+
+img {
+  max-width: 100%;
+}
+
+@layer components {
+  /* btn */
+  .btn {
+    @apply rounded-md items-center justify-center align-middle cursor-pointer uppercase flex;
+  }
+  .btnSub {
+    @apply border-prim border-[2px] text-prim rounded;
+  }
+  .middle {
+    @apply absolute top-[50%] translate-y-[-50%];
+  }
+  .center {
+    @apply absolute left-[50%] translate-x-[-50%];
+  }
+}

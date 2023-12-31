@@ -1,0 +1,48 @@
+{
+    "short_name": "VINFAST",
+    "name": "VINFAST Xe Điện",
+    "icons": [
+      {
+        "src": "/Vinfast_logo_Vuong.svg",
+        "type": "image/svg+xml",
+        "sizes": "150x150"
+      }
+    ],
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+      {
+        "name": "How's weather today?",
+        "short_name": "Today",
+        "description": "View weather information for today",
+        "url": "/today?source=pwa",
+        "icons": [{ "src": "/Vinfast_logo_Vuong.svg", "sizes": "150x150" }]
+      },
+      {
+        "name": "How's weather tomorrow?",
+        "short_name": "Tomorrow",
+        "description": "View weather information for tomorrow",
+        "url": "/tomorrow?source=pwa",
+        "icons": [{ "src": "/Vinfast_logo_Vuong.svg", "sizes": "150x150" }]
+      }
+    ],
+    "description": "Weather forecast information",
+    "screenshots": [
+      {
+        "src": "/vinfast_web_550x320.png",
+        "type": "image/png",
+        "sizes": "1100x640",
+        "form_factor": "wide"
+      },
+      {
+        "src": "/vinfast_web_320x550.png",
+        "type": "image/png",
+        "sizes": "640x1100",
+        "form_factor": "narrow"
+      }
+    ]
+  }
