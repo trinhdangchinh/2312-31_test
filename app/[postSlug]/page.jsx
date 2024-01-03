@@ -46,6 +46,7 @@ pageInfo {
 }
 
 export default async function PostDetailPage({ params }) {
+    
   const slug = params.postSlug;
   const post = await postQuery(slug);
 

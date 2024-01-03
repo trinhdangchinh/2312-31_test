@@ -33,6 +33,9 @@ export default async function generatorGql(queryString = "", dataItems) {
   //run loop generator to push data
   for await (let item of generator()) {
     arrayData.push(item);
+    // setTimeout(()=>
+      
+    //   1000);
   }
   // console.log(arrayData);
   return arrayData;
